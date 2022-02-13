@@ -1,0 +1,4 @@
+I use 
+https://onlinejpgtools.com/make-jpg-transparent
+
+To convert to transparent background

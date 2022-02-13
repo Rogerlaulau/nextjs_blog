@@ -8,7 +8,9 @@ export default function Home({posts}) {
     <div className="container mx-auto px-10 mb-8">
       <Head>
         <title>Outdoor Diary</title>
-        <link rel="icon" href="/favicon.ico" />
+        {/* <link rel="icon" href="/favicon.ico" /> */}
+        <link rel="icon" href="outdoordiray.png" type="image/png" />
+        {/* <link rel="icon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg" /> */}
       </Head>
       {/* <FeaturedPosts /> */}
       

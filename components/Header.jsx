@@ -18,10 +18,18 @@ const Header = () => {
             <div className='border-b w-full inline-block border-blue-400 py-8'>
                 <div className='md:float-left block'>
                     <Link href="/">
-                        <span className='cursor-pointer font-bold text-4xl text-white'>
+                        {/* <span className='cursor-pointer font-bold text-4xl text-white'>
                             Outdoor Diary
-                        </span>
+                        </span> */}
+                        <img
+                            alt={"logo"}
+                            height="500px"
+                            width="100px"
+                            className='cursor-pointer font-bold text-4xl text-white'
+                            src={"outdoordiary-logo.png"}
+                        />
                     </Link>
+
                 </div>
                 <div className='hidden md:float-left md:contents'>
                     {categories.map((category) => (
