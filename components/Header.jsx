@@ -26,7 +26,7 @@ const Header = () => {
                             height="500px"
                             width="100px"
                             className='cursor-pointer font-bold text-4xl text-white'
-                            src={"outdoordiary-logo.png"}
+                            src={"funwildblog-logo.png"}
                         />
                     </Link>
 
